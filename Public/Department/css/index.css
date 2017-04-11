@@ -1,0 +1,647 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	color: #666666;		
+}
+
+/*---------------------header头部样式---------------------*/
+header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 45px;
+	background-color: #0072C6;
+}
+header a {
+	text-decoration: none;
+}
+header .logo {
+	display: inline-block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 180px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #fff;
+	border-right: 1px solid #0065B0;
+}
+header .logo:after {
+	position: absolute;
+	left: 180px;
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 45px;
+	background-color: #0080DD;
+}
+header ul {
+	float: right;
+	/*由于第一个li没有border-right，最后一个li没有border-left*/
+	border-left: 1px solid #0065B0;
+	border-right: 1px solid #0080DD;
+}
+header ul li{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	list-style-type: none;
+	border-left: 1px solid #0080DD;
+	border-right: 1px solid #0065B0;
+}
+header ul li a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 13px;
+	color: #D9D9D9;
+}
+header ul li a img {
+	float: left;
+	margin: 5px 10px 5px 0;
+	width: 35px;
+}
+header ul li a span {
+	font-size: 13px;
+	color: #D9D9D9;
+}
+header ul li a span strong {
+	color: inherit;
+}
+header ul li a:hover {
+	height: 43px;
+	background-color: #60bbff;
+    color: #fff;
+}
+/*用户中心*/
+header .user {
+	position: relative;
+}
+header .user:hover .dropDown {
+	display: block;
+}
+header .user:hover a {
+	height: 45px;
+	background-color: #fff;
+}
+header .user:hover a span {
+    color: #000;
+}
+header .user .dropDown {
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: 45px;
+	left: -1px;
+	width: 100%;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	background-color: #FFF;
+}
+header .user .dropDown a {
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #0072C6;
+	border-bottom: 1px solid #EEE;
+}
+header .user .dropDown a:hover {
+	background-color: #f9f9f9;
+    color: #0072c6;
+}
+
+/*---------------------leftBar左侧导航栏样式---------------------*/
+.leftBar {
+	position: fixed;
+	top: 45px;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 200px;
+	height: 100%;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	border-right: 1px solid #ccc;
+	background-color: #EEEEEE
+}
+.leftBar ul li {
+	width: 100%;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-top: 1px solid #F9F9F9;
+	border-bottom: 1px solid #CCCCCC;
+}
+.leftBar ul li .fa {
+	margin: 0 20px 0 10px;
+}
+.leftBar ul li:first-child {
+	border-top: none;
+	/*background-color: #F5F5F5;*/
+}
+.leftBar ul li:last-child {
+	border-bottom: none;
+}
+.leftBar ul li a {
+	display: inline-block;
+	width: 100%;
+	line-height: 38px;
+	text-decoration: none;
+}
+.leftBar ul li:hover {
+	background-color: #60bbff;
+}
+.leftBar ul li:hover a,.leftBar ul li:hover .fa {	
+	color: #fff;
+}
+.active {
+	background-color: #60bbff;
+}
+.active a,.active .fa {
+	color: #fff;
+}
+
+/*---------------------main主体部分样式---------------------*/
+.main {
+	margin: 45px 0 0 200px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: calc(100% - 200px);
+	height: auto;
+}
+.main .url {
+	position: fixed;
+	z-index: 998;
+	padding-left: 20px;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	font-size: 13px;
+	color: #A0A0A0; 
+	background-color: #F5F5F5;
+	/*border-left: 1px solid #FFF;*/
+	border-bottom: 2px solid #79B0CE;
+}
+/*通过伪类实现border-left*/
+.main .url:before {  
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 38px;
+	left: 0px;
+	background-color: #FFF;
+}
+.main .container {
+	width: 100%;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 60px 21px 20px;
+}
+.main .container .alert {
+	position: relative;
+	width: 100%;
+	padding: 10px 40px 10px 15px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #31708f;
+	font-size: 13px;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+}
+.fa-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 13px 0;
+	width: 40px;
+	height: 40px;
+	color: #31708f;
+	text-align: center;
+}
+.fa-close:hover {
+	cursor: pointer;
+}
+.main .container .alert strong,.main .container .alert a {
+	font-weight: bold;
+	color: #31708f;
+}
+/*学生统计信息*/
+.table {
+	margin-bottom: 20px;
+}
+.studentInfo {
+	width: 670px;
+	float: left;
+}
+.table .title {
+	border-bottom: 1px solid #D7D7D7;
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+.table table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #F9F9F9;
+	font-size: 13px;
+}
+.table table tr td {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid #CCCCCC;
+}
+/*管理员登录记录*/
+.adminLogin {
+	float: right;
+	width: 400px;
+}
+.adminLogin table tr td {
+	text-align: center;
+}
+/*服务器信息*/
+.serverInfo {
+	clear: both;
+}
+/*系统信息*/
+.systemInfo {
+	margin-bottom: 0;
+}
+.cnblog {
+	color: #0072C6;
+	text-decoration: none;
+	outline: none;
+}
+.fa-qq {
+	color: #3b83c0;
+}
+.fa-weixin {
+	color: #51c332;
+}
+/*页脚*/
+footer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 21px;
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+	color: #999;
+	text-align: center;
+	border-top: 3px double #ccc;
+	/*background-color: #EEEEEE;*/
+}
+@charset "UTF-8";
+/*---------------------学生列表样式---------------------*/
+.name {
+	margin-bottom: 20px;
+	margin-top: -10px;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #D7D7D7;
+}
+.name span {
+	font-size: 23px;
+}
+.name a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	float: right;
+	margin: 15px 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	color: #FFFFFF;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #28B779;
+}
+.name .fa {
+	color: #fff;
+}
+/*搜索*/
+.search {
+	margin-bottom: 20px;
+}
+.search select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	height: 30px;
+	width: 100px;
+	color: #000;
+	font-size: 13px;
+	border: 1px solid #DBDBDB;
+	background-color: #FFF;
+}
+.search input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #DBDBDB;
+	background-color: #FFF;
+	padding: 6px 8px;
+	color: #999;
+	font-size: 13px;
+	height: 30px;
+}
+.search input[type="submit"] {
+	padding: 0 10px;
+	height: 29px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	background-color: #0072C6;
+}
+/*学生信息表格*/
+.list table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #F9F9F9;
+	font-size: 13px;
+}
+.list table tr th {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 35px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
+.list .checkbox {
+	width: 40px;
+}
+.list .action {
+	width: 130px;
+}
+.list table tr td {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 35px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.list table tr:hover {
+	background-color: #eeeeee;
+}
+.list table tr td a {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.list table tr td a:nth-child(1) {
+	border-right: 1px solid #ccc;
+}
+.list table tr td a:nth-child(2) {
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #ccc;
+}
+.list table tr td a:nth-child(3) {
+	border-left: 1px solid #FFF;
+}
+.list .fa-file-text-o {
+	color: #0072C6;
+}
+.list .fa-file-text-o:hover {
+	font-size: 20px;
+}
+.list .fa-edit {
+	color: #69AA46;
+}
+.list .fa-edit:hover {
+	font-size: 20px;
+}
+.list .fa-trash-o {
+	color: #DD5A43;
+}
+.list .fa-trash-o:hover {
+	font-size: 20px;
+}
+
+.list button {
+	position: absolute;
+	margin: 10px 10px;
+	padding: 0 10px;
+	height: 30px;
+	color: #fff;
+	border: none;
+	border-radius: 3px; 
+	font-size: 13px;
+	cursor: pointer;
+	background-color: #0072C6;
+}
+.list .fa-trash {
+	color: #fff;
+} 
+/*分页*/
+.page {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	text-align: center;
+	font-size: 13px;
+	background-color: #EEEEEE;
+}
+
+/*---------------------添加学生样式---------------------*/
+.addSud table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #F9F9F9;
+	font-size: 13px;
+}
+.addSud table tr td {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 16.66%;
+	height: 50px;
+	border: 1px solid #CCCCCC;
+}
+.addSud table tr td input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #DBDBDB;
+	background-color: #FFF;
+	padding: 6px 8px;
+	width: 85%;
+	margin: 0 7.5%;
+	color: #999;
+	font-size: 13px;
+	height: 30px;
+}
+.addSud table tr td input[type="submit"] {
+	padding: 0 15px;
+	height: 30px;
+	color: #fff;
+	border: none;
+	border-radius: 3px; 
+	font-size: 13px;
+	cursor: pointer;
+	background-color: #0072C6;
+}
+.addSud .textRight {
+	padding-right: 20px;
+	text-align: right;
+}
+
+/*---------------------学生成绩样式---------------------*/
+.grade .action {
+	width: 80px;
+}
+.grade table tr td a:nth-child(1) {
+	border-left: none;
+	border-right: none;
+}
+
+/*---------------------管理员样式---------------------*/
+.admin table tr td {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: auto;
+	height: 50px;
+	border: 1px solid #CCCCCC;
+}
+.admin table tr td input[type="text"],.admin table tr td input[type="password"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #DBDBDB;
+	background-color: #FFF;
+	padding: 6px 8px;
+	width: 40%;
+	margin: 0;
+	color: #999;
+	font-size: 13px;
+	height: 30px;
+}
+.admin .textRight {
+	width: 200px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+/*---------------------数据备份样式---------------------*/
+#tr1:hover,#tr2:hover,#tr3:hover {
+	background-color: #F9F9F9;
+}
+#tr1 td{
+	padding-right: 20px;
+	text-align: right;
+}
+#tr3 {
+	height: 50px;
+}
+#tr3 input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #DBDBDB;
+	background-color: #FFF;
+	padding: 6px 8px;
+	width: 200px;
+	margin: 0;
+	color: #999;
+	font-size: 13px;
+	height: 30px;
+}
+#tr3 input:last-child {
+	width: 60px;
+}
+.page-backup {
+	background-color: #F9F9F9;
+}
+.tablecontent
+{
+	position: relative;
+	margin: 10px auto;
+	padding: 10px;
+	width: 100%;
+	height: 500px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.main .tablePager
+{
+	display: none;
+}
+.tableinput
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background:#d9edf7;
+	border:1px solid #bce8f1;
+}
+.tableheader
+{
+	width: auto;
+	font-size:15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	height:50px;
+	margin: 10px;
+	border-bottom:2px solid #66b2ea;
+}
+.tableinput .sel
+{
+	display: inline-block;
+	margin-top: 5px;
+}
+.tableinput span
+{
+	font-size: 22px;
+	color:black;
+}
+.tableinput select,button
+{
+	width:150px;
+	height:40px;
+	margin-bottom: 0px;
+	padding: 5px;
+	font-size: 16px;
+	color:black;
+	background: #a8e8ff;
+	border:1px solid #d9edf7;
+}
