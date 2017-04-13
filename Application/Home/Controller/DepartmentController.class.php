@@ -14,6 +14,10 @@ class DepartmentController extends Controller {
     {
       $this->display(); 
     }
+    public function exercise()
+    {
+      $this->display(); 
+    }
     public function de_all()
     {
     	//department id get from session

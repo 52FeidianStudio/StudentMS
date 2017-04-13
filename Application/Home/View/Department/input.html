@@ -10,9 +10,12 @@
   <meta http-equiv="expires" content="0">    
   <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
   <meta http-equiv="description" content="This is my page">
+   <script src="__PUBLIC__/Department/Js/jquery1.9.js"></script>
+  <link rel="stylesheet" href="__PUBLIC__/Department/css/jquery.datetimepicker.css">
+  <script src="__PUBLIC__/Department/Js/jquery.datetimepicker.full.js"></script>
   <link rel="stylesheet" type="text/css" href="__PUBLIC__/Department/css/index.css">
   <link rel="stylesheet" type="text/css" href="__PUBLIC__/Department/css/font-awesome.css">
-  <script src="__PUBLIC__/Department/Js/jquery1.9.js"></script>
+  
   <script src="__PUBLIC__/Department/Js/input.js"></script>
   </head>
   
@@ -61,23 +64,51 @@
             <div class="tableinput">
                 <div class="tableheader">
                   <div class="grade sel">
-                    <span class="title">Grade</span>
+                    <span class="title">按年级选择</span>
                     <select id="grade">
                     </select>
                   </div>
                   <div class="place sel">
-                    <span class="title">Position</span>
+                    <span class="title">按寝室位置选择</span>
                     <select id="place">
                     </select>
                   </div>
                   <div class="class sel">
-                    <span class="title">Class</span>
+                    <span class="title">按照班级选择</span>
                     <select id="class">
                     </select>
                   </div>
+                  <div class="time sel">
+                    <span class="title">选择日期</span>
+                    <div class="class sel">
+                   <input id="datetimepicker" type="text" >
+                  </div>
+                  </div>
                   <button id="sure">Search</button>
                 </div>
+                <div class="tablemain">
+                   <table border='1' cellpadding='1'>
+                      <tr>
+                        <th class='head'>寝室号<p class='score'></p></th>
+                        <th class='head'>地面<p class='score'>（10）</p></th>
+                        <th class='head'>桌面，书架<p class='score'>（25）</p></th>
+                        <th class='head'>卫生间，阳台<p class='score'>（10）</p></th>
+                        <th class='head'>床铺<p class='score'>（20）</p></th>
+                        <th class='head'>门窗，墙面<p class='score'>（10）</p></th>
+                        <th class='head'>安全<p class='score'>（10）</p></th>
+                        <th class='head'>整体<p class='score'>（25）</p></th>
+                        <th class='head'>其他<p class='score'></p></th>
+                        <th class='head'>备注<p class='score'></p></th>
+                      </tr> 
+                  </table>
+                  <table border='1' cellpadding='1' id="tablehead">
+                  </table>
+                  <div class="controller">
+                      <button id='submit' class='but'>提交记录</button><button id='reset' class='re'>重新选择</button>
+                  </div>
+              </div>
             </div>
+            <div class="block"></div>
           </div><!-- container -->
           
           <footer>

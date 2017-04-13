@@ -1,0 +1,12 @@
+[ 2017-04-11T16:39:52+08:00 ] ::1 /StudentMS/index.php/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载模块:Department
+
+[ 2017-04-11T18:37:11+08:00 ] ::1 /StudentMS/index.php/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Department
+

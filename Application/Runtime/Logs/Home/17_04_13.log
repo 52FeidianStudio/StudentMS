@@ -1,0 +1,724 @@
+[ 2017-04-13T08:26:49+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-13T08:26:49+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-04-13T08:26:49+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-04-13T08:26:50+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:26:50+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:26:50+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:26:51+08:00 ] ::1 /StudentMS/index.php/Home/Department/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 非法操作:test
+
+[ 2017-04-13T08:26:53+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:26:53+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0009s ]
+
+[ 2017-04-13T08:26:53+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:26:54+08:00 ] ::1 /StudentMS/index.php/Home/Department/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-04-13T08:26:54+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:26:54+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:26:54+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0004s ]
+
+[ 2017-04-13T08:26:57+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=:%E8%AE%A1%E7%A7%911402:
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:27:06+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=:%E8%AE%A1%E7%A7%911402:
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:27:07+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+SQL: SHOW COLUMNS FROM `hygiene_check` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟五628' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟五628','100','2017-04-13','2014317200303') [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: sign /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 172 行.
+
+[ 2017-04-13T08:27:20+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `hygiene_check` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟五628' )  [ RunTime:0.0002s ]
+
+[ 2017-04-13T08:27:28+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 9 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:27:34+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 9 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0008s ]
+
+[ 2017-04-13T08:27:38+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 9 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:27:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined offset: 1 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 9 行.
+NOTIC: [8] Undefined offset: 2 /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0012s ]
+
+[ 2017-04-13T08:27:44+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%8D%81%E4%B8%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:28:02+08:00 ] ::1 /StudentMS/index.php/Home/Department/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-04-13T08:28:02+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0008s ]
+
+[ 2017-04-13T08:28:02+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0008s ]
+
+[ 2017-04-13T08:28:02+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:29:32+08:00 ] ::1 /StudentMS/index.php/Home/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2017-04-13T08:31:22+08:00 ] ::1 /StudentMS/index.php/Home/Department/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-04-13T08:31:22+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:31:22+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0008s ]
+
+[ 2017-04-13T08:31:22+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:31:24+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=:%E8%AE%A1%E7%AE%97%E6%9C%BA1502:
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0010s ]
+
+[ 2017-04-13T08:31:26+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=:%E8%AE%A1%E7%A7%911402:
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:31:29+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E4%BA%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:31:32+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%9B%9B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0014s ]
+
+[ 2017-04-13T08:31:35+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%8D%81%E4%B8%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:31:54+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%8D%81%E4%B8%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0013s ]
+
+[ 2017-04-13T08:31:56+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%8D%81%E4%B8%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0012s ]
+
+[ 2017-04-13T08:31:59+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E4%BA%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0015s ]
+
+[ 2017-04-13T08:32:01+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%8D%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:32:21+08:00 ] ::1 /StudentMS/index.php/Home/Student/Hyecheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `hygiene_check` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十139' )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十139','100','2017-04-14','2014317200303') [ RunTime:0.0203s ]
+NOTIC: [8] Undefined variable: sign /var/www/html/StudentMS/Application/Home/Controller/StudentController.class.php 第 172 行.
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十524' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十524','100','2017-04-14','2014317200303') [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十525' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十525','100','2017-04-14','2014317200303') [ RunTime:0.0142s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十526' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十526','100','2017-04-14','2014317200303') [ RunTime:0.0142s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十527' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十527','100','2017-04-14','2014317200303') [ RunTime:0.0131s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十528' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十528','100','2017-04-14','2014317200303') [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十529' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十529','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十530' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十530','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十531' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十531','100','2017-04-14','2014317200303') [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十532' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十532','100','2017-04-14','2014317200303') [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十533' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十533','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十534' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十534','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十535' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十535','100','2017-04-14','2014317200303') [ RunTime:0.0074s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十538' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十538','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十539' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十539','100','2017-04-14','2014317200303') [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十536' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十536','100','2017-04-14','2014317200303') [ RunTime:0.0079s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十540' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十540','100','2017-04-14','2014317200303') [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十537' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十537','100','2017-04-14','2014317200303') [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十541' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十541','100','2017-04-14','2014317200303') [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十542' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十542','100','2017-04-14','2014317200303') [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十543' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十543','100','2017-04-14','2014317200303') [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十546' )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十546','100','2017-04-14','2014317200303') [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十545' )  [ RunTime:0.0004s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十545','100','2017-04-14','2014317200303') [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十544' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十544','100','2017-04-14','2014317200303') [ RunTime:0.0079s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十517' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十517','100','2017-04-14','2014317200303') [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十516' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十516','100','2017-04-14','2014317200303') [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十518' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十518','100','2017-04-14','2014317200303') [ RunTime:0.0101s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十519' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十519','100','2017-04-14','2014317200303') [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十523' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十523','100','2017-04-14','2014317200303') [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十520' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十520','100','2017-04-14','2014317200303') [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hygiene_check` WHERE ( dorm_number='荟十521' )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `hygiene_check` (`ground`,`table`,`bed`,`window`,`safe`,`remarks_mark`,`remarks`,`balcony`,`dorm_number`,`whole`,`date`,`checker`) VALUES ('0','0','0','0','0','0','','0','荟十521','100','2017-04-14','2014317200303') [ RunTime:0.0077s ]
+
+[ 2017-04-13T08:32:49+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E4%B8%80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0005s ]
+
+[ 2017-04-13T08:32:52+08:00 ] ::1 /StudentMS/index.php/Home/Student/getdor?key=::%E8%8D%9F%E5%9B%9B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_department`,`s_class` FROM `student`  [ RunTime:0.0008s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Department/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0009s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Department/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getcname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0007s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getplace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_department` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:36:40+08:00 ] ::1 /StudentMS/index.php/Home/Student/getgrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `s_class` FROM `student`  [ RunTime:0.0006s ]
+
+[ 2017-04-13T08:36:41+08:00 ] ::1 /StudentMS/index.php/Home/Department/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-04-13T08:36:41+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-04-13T08:37:10+08:00 ] ::1 /StudentMS/index.php/Home/Department/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-04-13T08:37:10+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-04-13T08:37:11+08:00 ] ::1 /StudentMS/index.php/Home/Department/exercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+ERR: 模板不存在:./Application/Home/View/Department/exercise.html
+
+[ 2017-04-13T08:37:51+08:00 ] ::1 /StudentMS/index.php/Home/Department/exercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-04-13T08:37:51+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-04-13T08:37:52+08:00 ] ::1 /StudentMS/index.php/Home/Department/exercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-04-13T08:37:52+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-04-13T08:37:53+08:00 ] ::1 /StudentMS/index.php/Home/Department/exercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-04-13T08:37:53+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-04-13T08:37:55+08:00 ] ::1 /StudentMS/index.php/Home/Department/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-04-13T08:37:55+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-04-13T08:37:56+08:00 ] ::1 /StudentMS/index.php/Home/Department/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-04-13T08:37:56+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-04-13T08:38:00+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-04-13T08:38:01+08:00 ] ::1 /StudentMS/index.php/Home/Department/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-04-13T08:38:01+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-04-13T08:38:02+08:00 ] ::1 /StudentMS/index.php/Home/Department/exercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-04-13T08:38:02+08:00 ] ::1 /StudentMS/index.php/Home/Department/de_all?pager=%7B%22page%22%3A1%2C%22pageCapacity%22%3A7%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: select s_name,s_code,s_sex,s_department,s_phone,s_qq,s_origin,s_passwd,d_p_identify from student,department_people_list where student.s_code = department_people_list.d_p_code
+    		  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
